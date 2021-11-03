@@ -147,8 +147,9 @@ footer.centrado {
 }
 
 .control {
-  width: 100%;
+  width: 30%;
   padding: 8px;
+  align-items: center;
 }
 
 .boton-formulario {
@@ -219,4 +220,9 @@ footer.centrado {
 .contenedor-articulo {
   display: flex;
   flex-wrap: wrap;
+}
+
+.mensaje-error {
+  color: #ff0000;
+  font-size: 12px;
 }
