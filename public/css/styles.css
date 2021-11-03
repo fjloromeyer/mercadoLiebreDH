@@ -141,22 +141,36 @@ footer.centrado {
 
 .crear-formulario {
   padding: 20px 15px;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
 }
 
 .control-formulario {
   margin-bottom: 15px;
+  width: 50%;
+}
+
+.control-formulario .categoria {
+  display: flex;
 }
 
 .control-formulario label {
-  margin-bottom: 5px;
-  font-style: italic;
+  margin-bottom: 10px;
   display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.control-formulario label .hide {
+  visibility: hidden;
 }
 
 .control {
-  width: 30%;
   padding: 8px;
   align-items: center;
+  width: 100%;
 }
 
 .boton-formulario {

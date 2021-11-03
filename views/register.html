@@ -32,33 +32,33 @@
   <body>
     <form action="/register" method="POST" class="crear-formulario">
     <div class="control-formulario">
-      <label>Nombre y apellido:</label>
+      <label class="hide">Nombre y apellido:</label>
       <input
         type="text"
         name="nombre"
-        placeholder="Juan Román Riquelme"
+        placeholder="Nombre y apellido"
         class="control"
       />
     </div>
     <div class="control-formulario">
-      <label>Nombre de usuario:</label>
-      <input type="text" name="usuario" placeholder="JRR10" class="control" />
+      <label class="hide">Nombre de usuario:</label>
+      <input type="text" name="usuario" placeholder="Nombre de usuario" class="control" />
     </div>
     <div class="control-formulario">
       <label>Fecha de nacimiento:</label>
       <input
         type="date"
         name="fechaNacimiento"
-        placeholder="1978-06-24"
+        placeholder="mm/dd/yyyy"
         class="control"
       />
     </div>
     <div class="control-formulario">
-      <label>Domicilio:</label>
+      <label class="hide">Domicilio:</label>
       <input
         type="text"
         name="domicilio"
-        placeholder="Avenida Siempreviva 123"
+        placeholder="Domicilio"
         class="control"
       />
     </div>
@@ -71,21 +71,33 @@
     </div>
     <div class="control-formulario">
       <label>Categorías de interés:</label>
-      <input type="checkbox" id="electro" name="electro" value="electro" />
-      <label for="electro">Electro</label><br />
-      <input type="checkbox" id="moda" name="moda" value="moda" />
-      <label for="moda">Moda</label><br />
-      <input type="checkbox" id="hogar" name="hogar" value="hogar" />
-      <label for="hogar">Hogar</label><br />
-      <input
+      <div class="categoria">
+        <input type="checkbox" id="electro" name="electro" value="electro" />
+        <label for="electro">Electro</label><br />
+      </div>
+      <div class="categoria">
+        <input type="checkbox" id="moda" name="moda" value="moda" />
+        <label for="moda">Moda</label><br />
+      </div>
+      <div class="categoria">
+        <input type="checkbox" id="hogar" name="hogar" value="hogar" />
+        <label for="hogar">Hogar</label><br />
+      </div>
+
+      <div class="categoria">
+        <input
         type="checkbox"
         id="jugueteria"
         name="jugueteria"
         value="jugueteria"
-      />
-      <label for="jugueteria">Jugueteria</label><br />
-      <input type="checkbox" id="vidaSana" name="vidaSana" value="vidaSana" />
-      <label for="vidaSana">Vida sana</label><br />
+        />
+        <label for="jugueteria">Jugueteria</label><br />
+      </div>
+
+      <div class="categoria">
+        <input type="checkbox" id="vidaSana" name="vidaSana" value="vidaSana" />
+        <label for="vidaSana">Vida sana</label><br />
+      </div>
     </div>
     <div class="control-formulario">
       <label>Foto de usuario:</label>
@@ -93,12 +105,12 @@
       </input>
     </div>
     <div class="control-formulario">
-      <label>Contraseña:</label>
-      <input type="password" name="contrasena" class="control" />
+      <label class="hide">Contraseña:</label>
+      <input type="password" name="contrasena" placeholder="Contraseña" class="control" />
     </div>
     <div class="control-formulario">
-      <label>Confirmar contraseña:</label>
-      <input type="password" name="contrasena" class="control" />
+      <label class="hide">Confirmar contraseña:</label>
+      <input type="password" name="contrasena" placeholder="Confirmar contraseña" class="control" />
     </div>
     <div>
     <button type="reset" class="boton-formulario">Borrar</button>
