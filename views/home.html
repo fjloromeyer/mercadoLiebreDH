@@ -36,10 +36,16 @@
           <img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre" />
         </h1>
         <div class="search-bar">
-          <input type="text" />
-          <button>
-            <i class="fas fa-search"></i>
-          </button>
+          <form action="/" method="POST">
+            <input
+              type="text"
+              name="lupa-busqueda"
+              placeholder="Buscar productos, marcas y más"
+            />
+            <button type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
         </div>
         <p class="leyenda text-center p-vertical">
           <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta

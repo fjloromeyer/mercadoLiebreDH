@@ -26,4 +26,8 @@
   .margen-i {
     margin-left: 4%;
   }
+
+  .top-nav .search-bar form {
+    height: 30px;
+  }
 }

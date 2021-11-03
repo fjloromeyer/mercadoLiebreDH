@@ -24,8 +24,8 @@
 
   .top-nav .search-bar {
     display: flex;
-    padding: 0 10px;
-    margin: 0 10px;
+    padding: 0;
+    margin: 0;
     justify-content: center;
   }
 
@@ -62,5 +62,8 @@
   }
   .navbar {
     font-size: 16px;
+  }
+  .top-nav .search-bar form {
+    height: 20px;
   }
 }

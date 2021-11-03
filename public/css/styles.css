@@ -95,6 +95,7 @@ footer.centrado {
   background-color: white;
   border: none;
   max-width: 400px;
+  padding: 0 10px;
 }
 
 .top-nav .search-bar button {
@@ -102,6 +103,12 @@ footer.centrado {
   border-bottom-right-radius: 5px;
   background-color: white;
   border: none;
+}
+
+.top-nav .search-bar form {
+  width: 100%;
+  display: flex;
+  margin: 0 10px;
 }
 
 .top-nav .leyenda {
