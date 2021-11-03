@@ -1,0 +1,29 @@
+@media (min-width: 1200px) {
+  .wrapper {
+    width: 25%;
+  }
+
+  .producto .descripcion-articulo .descripciones {
+    display: none;
+  }
+
+  .producto:hover .descripcion-articulo .descripciones {
+    display: block;
+  }
+
+  .producto .truck-icon {
+    transition: transform 0.5s;
+  }
+
+  .producto:hover .truck-icon {
+    transform: rotate(360deg);
+  }
+
+  .margen-d {
+    margin-right: 4%;
+  }
+
+  .margen-i {
+    margin-left: 4%;
+  }
+}

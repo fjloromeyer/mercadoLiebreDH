@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mercado liebre registro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/themes.css" />
+
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/styles-tablet.css" />
+    <link rel="stylesheet" href="/css/styles-desktop.css" />
+
+    <script
+      src="https://kit.fontawesome.com/a6f3bf090e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <form action="/register" method="POST" class="crear-formulario">
+    <div class="control-formulario">
+      <label>Nombre y apellido:</label>
+      <input
+        type="text"
+        name="nombre"
+        placeholder="Juan Román Riquelme"
+        class="control"
+      />
+    </div>
+    <div class="control-formulario">
+      <label>Nombre de usuario:</label>
+      <input type="text" name="usuario" placeholder="JRR10" class="control" />
+    </div>
+    <div class="control-formulario">
+      <label>Fecha de nacimiento:</label>
+      <input
+        type="date"
+        name="fechaNacimiento"
+        placeholder="1978-06-24"
+        class="control"
+      />
+    </div>
+    <div class="control-formulario">
+      <label>Domicilio:</label>
+      <input
+        type="text"
+        name="domicilio"
+        placeholder="Avenida Siempreviva 123"
+        class="control"
+      />
+    </div>
+    <div class="control-formulario">
+      <label>Perfil del usuario:</label>
+      <select name="perfilUsuario" class="control">
+        <option value="comprar">Comprar</option>
+        <option value="vender">Vender</option>
+      </select>
+    </div>
+    <div class="control-formulario">
+      <label>Categorías de interés:</label>
+      <input type="checkbox" id="electro" name="electro" value="electro" />
+      <label for="electro">Electro</label><br />
+      <input type="checkbox" id="moda" name="moda" value="moda" />
+      <label for="moda">Moda</label><br />
+      <input type="checkbox" id="hogar" name="hogar" value="hogar" />
+      <label for="hogar">Hogar</label><br />
+      <input
+        type="checkbox"
+        id="jugueteria"
+        name="jugueteria"
+        value="jugueteria"
+      />
+      <label for="jugueteria">Jugueteria</label><br />
+      <input type="checkbox" id="vidaSana" name="vidaSana" value="vidaSana" />
+      <label for="vidaSana">Vida sana</label><br />
+    </div>
+    <div class="control-formulario">
+      <label>Foto de usuario:</label>
+      <input type="file" name="fotoUsuario" accept=".jpg" class="control">
+      </input>
+    </div>
+    <div class="control-formulario">
+      <label>Contraseña:</label>
+      <input type="password" name="contrasena" class="control" />
+    </div>
+    <div class="control-formulario">
+      <label>Confirmar contraseña:</label>
+      <input type="password" name="contrasena" class="control" />
+    </div>
+    <button type="reset" class="boton-formulario">Borrar</button>
+    <button type="submit" class="boton-formulario">Guardar</button>
+  </body>
+</html>

@@ -1,0 +1,222 @@
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+
+.p {
+  padding: 16px;
+}
+
+.p-top {
+  padding-top: 16px;
+}
+
+.p-vertical {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.margen-d {
+  margin-right: 2%;
+}
+
+.margen-i {
+  margin-left: 2%;
+}
+
+.b {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.text-center {
+  text-align: center;
+}
+
+main.centrado {
+  width: 90vw;
+}
+
+footer.centrado {
+  width: 90vw;
+}
+
+.burger-menu {
+  text-align: center;
+  margin: 10px auto;
+  padding: 5px;
+  width: 45px;
+  height: 45px;
+  font-size: 28px;
+  border-radius: 5px;
+}
+
+.fa-bars {
+  background-color: #1259c3;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 20%;
+  margin: 5px 5px;
+}
+
+.fa-truck {
+  background-color: white;
+  text-align: center;
+  padding-top: 1em;
+  font-size: 1.3em;
+  width: 3em;
+  height: 3em;
+  color: green;
+  border: solid 0.1em green;
+  border-radius: 50%;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.top-nav .search-bar {
+  display: flex;
+  padding: 0 10px;
+  margin: 0 10px;
+  justify-content: center;
+  width: 45%;
+}
+
+.top-nav .search-bar input {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  flex-grow: 1;
+  background-color: white;
+  border: none;
+  max-width: 400px;
+}
+
+.top-nav .search-bar button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+  border: none;
+}
+
+.top-nav .leyenda {
+  min-width: 30%;
+}
+
+.top-nav .logo {
+  padding: 0;
+  width: 45%;
+}
+
+.navbar ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40vw;
+}
+
+.navbar {
+  display: none;
+}
+
+.crear-formulario {
+  padding: 20px 15px;
+}
+
+.control-formulario {
+  margin-bottom: 15px;
+}
+
+.control-formulario label {
+  margin-bottom: 5px;
+  font-style: italic;
+  display: block;
+}
+
+.control {
+  width: 100%;
+  padding: 8px;
+}
+
+.boton-formulario {
+  background-color: #39b54a;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.precios {
+  font-size: 18px;
+  margin-bottom: 0%;
+}
+
+.descuentos {
+  font-size: 16px;
+  color: green;
+  margin-top: 0%;
+  margin-left: 5px;
+}
+
+.descripciones {
+  font-size: 16px;
+  color: gray;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 10px;
+}
+
+.descripcion-articulo {
+  background-color: #fff;
+  border-top: 1px #ebebeb solid;
+  padding: 15px;
+  text-align: left;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.descripcion-articulo .fa-truck {
+  position: absolute;
+  right: 20px;
+  top: -20px;
+  align-self: flex-end;
+}
+
+.descripcion-articulo .precios {
+  width: 50%;
+}
+
+.descripcion-articulo .descuentos {
+  width: 30%;
+}
+
+.oculto-mobile {
+  display: none;
+}
+
+.contenedor {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contenedor-articulo {
+  display: flex;
+  flex-wrap: wrap;
+}
