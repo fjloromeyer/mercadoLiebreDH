@@ -30,18 +30,76 @@
   </head>
 
   <body>
+    <header class="amarillo p">
+      <section class="top-nav">
+        <a href="/" class="logo">
+          <img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre" />
+        </a>
+        <div class="search-bar">
+          <form action="/" method="POST">
+            <input
+              type="text"
+              name="lupa-busqueda"
+              placeholder="Buscar productos, marcas y más"
+            />
+            <button type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <p class="leyenda text-center p-vertical">
+          <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta
+          de crédito
+        </p>
+      </section>
+
+      <nav class="navbar oculto-mobile">
+        <ul class="navbar-izq">
+          <li class="margen-d"><a href="">Ofertas</a></li>
+          <li class="margen-d"><a href="">Tiendas oficiales</a></li>
+          <li class="margen-d"><a href="">Vender</a></li>
+          <li><a href="">Ayuda</a></li>
+        </ul>
+        <ul class="navbar-der">
+          <li>
+            <a href="/register"
+              >Creá tu cuenta <i class="far fa-address-card"></i
+            ></a>
+          </li>
+          <li class="margen-i">
+            <a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a>
+          </li>
+          <li class="margen-i">
+            <a href="">Mis compras <i class="fas fa-shopping-basket"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="burger-menu oculto-not-mobile celeste">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+
     <form action="/" method="POST" class="crear-formulario">
       <div class="control-formulario">
-        <label class="hide" for="usuario">Nombre de usuario:</label>
-        <input type="text" name="usuario" placeholder="JRR10" class="control" />
+        <input
+          type="text"
+          name="usuario"
+          placeholder="Nombre de usuario"
+          class="control"
+        />
         <span class="mensaje-error">El usuario no existe</span>
       </div>
       <div class="control-formulario">
-        <label class="hide" for="contrasena">Contraseña:</label>
-        <input type="password" name="contrasena" class="control" />
+        <input
+          type="password"
+          name="contrasena"
+          placeholder="Contraseña"
+          class="control"
+        />
         <span class="mensaje-error">La contraseña es errónea</span>
       </div>
-      <div>
+      <div class="control-formulario">
         <button type="submit" class="boton-formulario">Enviar</button>
       </div>
     </form>

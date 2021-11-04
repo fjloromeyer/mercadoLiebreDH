@@ -94,6 +94,7 @@ footer.centrado {
   flex-grow: 1;
   background-color: white;
   border: none;
+  width: 80%;
   max-width: 400px;
   padding: 0 10px;
 }
@@ -103,6 +104,7 @@ footer.centrado {
   border-bottom-right-radius: 5px;
   background-color: white;
   border: none;
+  width: 20%;
 }
 
 .top-nav .search-bar form {
@@ -141,18 +143,24 @@ footer.centrado {
 
 .crear-formulario {
   padding: 20px 15px;
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   text-align: left;
   width: 100%;
 }
 
 .control-formulario {
   margin-bottom: 15px;
-  width: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .control-formulario .categoria {
   display: flex;
+  flex-wrap: wrap;
+  margin-left: 5px;
 }
 
 .control-formulario label {
@@ -163,14 +171,21 @@ footer.centrado {
   margin-left: 5px;
 }
 
-.control-formulario label .hide {
-  visibility: hidden;
+.control-formulario span {
+  max-width: 110px;
 }
 
 .control {
   padding: 8px;
   align-items: center;
   width: 100%;
+  max-width: 495px;
+  max-height: 35px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .boton-formulario {
@@ -180,6 +195,7 @@ footer.centrado {
   color: #ffffff;
   padding: 5px 10px;
   border-radius: 5px;
+  margin: 10px;
 }
 
 .precios {
@@ -246,4 +262,5 @@ footer.centrado {
 .mensaje-error {
   color: #ff0000;
   font-size: 12px;
+  margin: 10px;
 }
