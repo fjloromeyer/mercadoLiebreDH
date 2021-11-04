@@ -30,4 +30,14 @@
   .top-nav .search-bar form {
     height: 30px;
   }
+
+  .contenedor-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+  }
+
+  .item-contenedor-footer {
+    margin: 0px 5px 0px 5px;
+  }
 }

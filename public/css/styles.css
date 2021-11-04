@@ -73,6 +73,20 @@ footer.centrado {
   border-radius: 50%;
 }
 
+.fa-credit-card,
+.fa-gift,
+.fa-user-shield {
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 1.5em;
+}
+
+.fa-credit-card:hover,
+.fa-gift:hover,
+.fa-user-shield:hover {
+  color: #1259c3;
+}
+
 .top-nav {
   display: flex;
   justify-content: space-around;
@@ -198,6 +212,10 @@ footer.centrado {
   margin: 10px;
 }
 
+.boton-formulario:hover {
+  background-color: #0022aa;
+}
+
 .precios {
   font-size: 18px;
   margin-bottom: 0%;
@@ -263,4 +281,8 @@ footer.centrado {
   color: #ff0000;
   font-size: 12px;
   margin: 10px;
+}
+
+.iconos-footer {
+  size: 5px;
 }
